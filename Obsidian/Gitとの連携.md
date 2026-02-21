@@ -1,0 +1,3 @@
+- PowerShellで```Documents/obsidian_vaults/<vault_name>```に保管庫を作成
+- [[リポジトリ作成]] <vault_name>フォルダをルートにする
+- [[Gitプラグイン]]を入れる（vaultごとに入れる必要がある）。

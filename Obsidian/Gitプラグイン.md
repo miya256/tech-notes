@@ -1,3 +1,11 @@
+## 入れ方
+- 設定 > コミュニティプラグイン で有効化
+- 閲覧で、gitと検索
+- インストール & 有効化
+- いろいろ設定
+	- auto commit and sync
+	- commit message (autoとmanuak)
+## ボタンや単語の説明
 - 一番左の Open Git source control で、commitとかできる画面が出る
 - 真ん中の上の折りたたむを押すと閉じる
 - ```設定 > コミュニティプラグインのGit``` から詳細設定
