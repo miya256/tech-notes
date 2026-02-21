@@ -1,0 +1,4 @@
+- 一番左の Open Git source control で、commitとかできる画面が出る
+- 真ん中の上の折りたたむを押すと閉じる
+- ```設定 > コミュニティプラグインのGit``` から詳細設定
+- sync = pull & push
