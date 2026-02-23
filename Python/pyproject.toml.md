@@ -32,3 +32,6 @@ requires-python = ">=3.10"
 ```
 dependencies = []
 ```
+
+なんかpip install . でパッケージ化してインストールされるらしい。  
+必要なライブラリだけをインストールしたいだけなら、`requirements.txt` でよさそう。
