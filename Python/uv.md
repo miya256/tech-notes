@@ -15,7 +15,8 @@ pip install uv
 ```
 
 ### uv init
-- リポジトリのルートで以下を実行。 `.python-version` と `pyproject.toml` がつくられる。
+- リポジトリのルートで以下を実行。 `.python-version` と `pyproject.toml` と `main.py` がつくられる。
+- `main.py` はいらないので消しちゃおう。
 ```
 uv init
 ```
@@ -27,10 +28,10 @@ uv sync
 ```
 
 ### ライブラリの追加
-- `pyproject.toml` と `uv.lock` が自動で更新されます
-- 依存ライブラリも勝手に入ります
-- `.venv/Lib/site-packages` の中に追加されます
-- `requirements.txt` がある場合はこれで一括でできます
+- `pyproject.toml` と `uv.lock` が自動で更新されます。
+- 依存ライブラリも勝手に入ります。
+- `.venv/Lib/site-packages` の中に追加されます。
+- `requirements.txt` がある場合はこれで一括でできます。
 ```
 uv add -r requirements.txt
 ```
@@ -40,7 +41,7 @@ uv add <library>
 ```
 
 ### 実行
-- コマンドの先頭に `uv run` を付けよう
+- コマンドの先頭に `uv run` を付けよう。
 ```
 uv run python main.py
 ```
