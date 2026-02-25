@@ -11,3 +11,20 @@ pip install pyright
 ```
 uv add --dev pyright
 ```
+
+## 設定
+uv で使ったので、それだけ説明する
+
+### チェックをしたいファイルを指定
+- `pyproject.toml` に以下を書く
+```
+[tool.pyright]
+include = ["test/auto_test"]
+```
+
+## 実行
+```
+pyright
+```
+
+[[uv]]
