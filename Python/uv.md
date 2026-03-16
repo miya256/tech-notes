@@ -45,3 +45,14 @@ uv add <library>
 ```
 uv run python main.py
 ```
+
+## dependency-groups
+必要なライブラリをグループ分けできる
+```
+uv sync --group <group_name>
+```
+
+すべて入れる場合は、
+```
+uv sync --all-groups
+```
