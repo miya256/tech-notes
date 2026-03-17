@@ -34,6 +34,15 @@ jobs: # 実行する作業一覧（並列に実行される）
       # これもインストール必要だがuvに入れとけば、uv syncのときに入るはず
       - name: Run pyright
         run: uv run pyright
+      
+      # logのアップロード
+      # もし、logファイルに出力していたらアップロードすると見れる
+      - name: Upload log
+        if: always() # 直前のstepが失敗しても動く
+        uses: actions/upload-artifact@v4
+        with:
+          name: result-log
+          path: result.log
 ```
 
 ## ログ
