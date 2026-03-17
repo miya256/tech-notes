@@ -39,7 +39,7 @@ jobs: # 実行する作業一覧（並列に実行される）
 ## ログ
 - ログが長いときは、ファイルに出力するとよい
 ```
-pytest -v 2>&1 | tee result.log | grep -E "WA|RE|ERROR"
+uv run oj-verify run 2>&1 | tee result.log | grep -E "INFO:onlinejudge_verify.verify:|\[SUCCESS\]"
 ```
 
 ### `2>&1`
